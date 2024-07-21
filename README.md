@@ -37,3 +37,7 @@ To install GestureFlow, follow these steps:
 
 4. Create a folder named dataset in the project directory with images for training. 
 
+Sample dataset here : https://www.kaggle.com/datasets/shyambhu/hands-and-palm-images-dataset
+
+
+### Have fun Gestureflowing!
