@@ -1,5 +1,7 @@
 # GestureFlow
 
+![alt text](https://github.com/KaustuvBhattarai/GestureFlow/gestureflow.png?raw=true)
+
 GestureFlow is a hand gesture detection and system input/navigation system using Convolutional Neural Networks (CNN) with real-time detection capabilities. This project leverages TensorFlow and Keras for model training and Tkinter for creating a graphical user interface (GUI).
 
 ### Development Log
