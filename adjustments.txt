@@ -1,0 +1,25 @@
+
+Adjustment Sections: 
+
+------------------------------------------------------------
+def detect_hand_in_image(model, image, threshold=0.4):
+
+Adjust the detection threshold in the detect_hand_in_image function to make the detection more or less sensitive.
+
+
+------------------------------------------------------------
+
+datagen = ImageDataGenerator(
+    rescale=1./255,
+    rotation_range=20,
+    width_shift_range=0.2,
+    height_shift_range=0.2,
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True,
+    fill_mode='nearest',
+    validation_split=0.2
+)
+
+
+These data augmentation parameters can be modified to improve the robustness of the model. 
