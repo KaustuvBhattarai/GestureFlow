@@ -31,4 +31,6 @@ To install GestureFlow, follow these steps:
     ```
 
 3. Check the `adjustments.txt` file for instructions on detection sensitivity and data augmentation parameters.
-"""
+
+4. Create a folder named dataset in the project directory with images for training. 
+
