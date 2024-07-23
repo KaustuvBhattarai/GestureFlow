@@ -1,0 +1,21 @@
+#Backing up pyinstaller commandsets for me to refer in future
+
+pyinstaller --onefile --windowed gestureflow_v4.1.py
+ 
+
+ pyinstaller --onefile --windowed --icon=gfico.ico --add-data "hand_detection_model.h5;." --add-data "hand_icon.png;." --add-data "no_hand_icon.png;." verboseoutputfix.py
+
+ pyinstaller --onefile --windowed --icon=gfico.ico --add-data "hand_icon.png;." --add-data "no_hand_icon.png;." gestureflow.py
+ 
+pyinstaller --onefile --windowed --icon=gfico.ico --add-data "hand_icon.png;." --add-data "no_hand_icon.png;." --add-data "C:\Users\MeetK\AppData\Local\Programs\Python\Python311\Lib\site-packages\mediapipe\python\solution\*;mediapipe_solutions"  gestureflow_v4.4_release.py
+
+pyinstaller --onefile --windowed --icon=gfico.ico \
+  --add-data "hand_icon.png;." \
+  --add-data "no_hand_icon.png;." \
+  --add-data "C:\\Users\\MeetK\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\mediapipe\\python\\solutions\\*;mediapipe_solutions" \
+  gestureflow_v4.4_release.py
+
+pyinstaller --onefile --noconsole gestureflow.py
+
+
+pyinstaller --onefile --windowed --icon=gfico.ico --add-data "hand_icon.png;." --add-data "no_hand_icon.png;." --add-data "C:\Users\MeetK\AppData\Local\Programs\Python\Python311\Lib\site-packages\mediapipe;mediapipe/" gestureflowrelease.py
