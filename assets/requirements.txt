@@ -1,0 +1,4 @@
+pip install mediapipe opencv-python pillow
+
+
+#More will be added here soon. 
