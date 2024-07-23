@@ -1,0 +1,63 @@
+                                                        GestureFlow Beta V4
+    --------------------------------------------------------------------------------------------------------------------------
+
+    Prerequisites
+    Ensure you have the following installed:
+
+        Python 3.6 or later
+        TensorFlow
+        OpenCV
+        Pillow
+        Tkinter (usually included with Python)
+
+    --------------------------------------------------------------------------------------------------------------------------
+    
+    Setup Instructions
+
+    1. Create a Virtual Environment (Recommended and kinda optional)
+
+        python -m venv gestureflow-env
+        source gestureflow-env/bin/activate  # On Windows use `gestureflow-env\Scripts\activate`
+
+        And install Required Packages:
+
+        pip install tensorflow opencv-python pillow
+
+    2. Prepare Your Dataset 
+        Create folder named dataset in project directory and add hand images for training
+
+    3. Train the CNN Model
+
+        python CNN_trainer.py 
+
+        Execute the training script to train the CNN model and save it as hand_detection_model.h5:
+
+        bash
+        Copy code
+        python CNN_trainer.py
+        This will generate a model file named hand_detection_model.h5 in the current directory.
+
+    4. Finally execute the GestureFlow application script:
+
+        python gestureflow_sc.py
+
+    --------------------------------------------------------------------------------------------------------------------------
+
+    Troubleshooting
+
+        If the model file (hand_detection_model.h5) is not found:
+        Ensure that the model file was correctly saved and is located in the same directory as the gestureflow_sc.py script.
+
+        If the webcam feed does not work:
+        Try using an external webcam or check your webcam settings and permissions.
+
+        For TensorFlow or OpenCV import errors:
+        Verify that the required packages are installed in your virtual environment.
+
+    
+    --------------------------------------------------------------------------------------------------------------------------
+
+    Contact
+    For contributions or questions, you can reach out via email: sso.encom@icloud.com
+
+    --------------------------------------------------------------------------------------------------------------------------
