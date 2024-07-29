@@ -24,8 +24,20 @@ pip install tensorflow opencv-python pillow
 """
 
 import os
+import warnings
+import logging
 
-import os
+# Set environment variables to suppress TensorFlow messages
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # 0 = all messages are logged (default), 1 = INFO messages are not printed, 2 = INFO and WARNING messages are not printed, 3 = INFO, WARNING, and ERROR messages are not printed
+
+
+warnings.filterwarnings('ignore', category=UserWarning, message='.*CPU feature.*')
+warnings.filterwarnings('ignore', category=UserWarning, message='.*Compiled the loaded model.*')
+
+# suppress absl logging
+logging.getLogger('absl').setLevel(logging.ERROR)
+
+
 import cv2
 import numpy as np
 import tensorflow as tf
