@@ -1,0 +1,35 @@
+Configuring CNN Parameters for GestureFlow: 
+Authored By Kaustuv Bhattarai. 
+
+
+These explain the parameters for a beginner who wants to use this app to train a model for themselves. 
+
+Dataset Path
+Specify the path to your dataset. The dataset should be organized into subdirectories for each class, with images stored inside these subdirectories.
+
+Epochs
+The number of epochs determines how many times the entire dataset will be passed through the network during training. More epochs can lead to better accuracy but will take longer to train.
+
+Convolutional Layers
+This parameter defines the number of convolutional layers in the network. Convolutional layers are used to extract features from the input images.
+
+Filters
+The number of filters in each convolutional layer. Filters are used to detect different features in the input images. More filters can capture more detailed features.
+
+Kernel Size
+The size of the kernel (filter) used in convolutional layers. A common choice is usually 3x3, which balances detail and computational efficiency.
+
+Dense Units
+The number of units (neurons) in the dense (fully connected) layer. More units can increase the model's ability to learn complex patterns.
+
+Dropout Rate
+Dropout is a regularization technique to prevent overfitting. It randomly drops a fraction of the units during training. A dropout rate of 0.5 means 50% of the units are dropped.
+
+Using the Application
+- Dataset Path: Click "Browse" to select the directory containing your dataset.
+- Adjust these parameters as per your need.
+- Click "Start Training" to begin the training process.
+- The progress bar will show the training progress, and the estimated time remaining will be displayed.
+- Check for a .h5 file in the directory to find your model.
+
+Note : The dataset should be organized into subdirectories for each class, with images stored inside these subdirectories. And obviously ensure you have the required Python packages installed. Happy Gestureflow learning!
