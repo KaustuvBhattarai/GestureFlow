@@ -1,0 +1,35 @@
+Dataset Preparation for Hand Gesture Detection in GestureFlow
+Authored by Kaustuv Bhattarai.
+
+Overview
+-------------------------------------------------------------------------------------------------------------------------------------------
+To achieve optimal performance from the hand gesture detection model, it is essential to prepare the dataset following specific guidelines. 
+This document provides detailed instructions on the types of images that should be included in the dataset, as well as recommendations for capturing high-quality hand gesture images.
+
+- Image Specifications
+Image Resolution: 64*64 is optimal but can use larger ones. 
+
+- Image Format:
+Ensure that all images have three color channels in RGB.
+
+- Background and Lighting:
+Try to use a plain, contrasting background to ensure the hand is clearly distinguishable.
+Avoid cluttered or noisy backgrounds.
+Ensure consistent lighting conditions to minimize shadows and highlights on the hands.
+
+- Hand Position and Orientation:
+Include images of hands in various positions and orientations.
+Capture gestures from different angles to improve model robustness.
+Ensure that hands are centered and occupy a significant portion of the image.
+
+- Hand Variability:
+Include images from different individuals to account for variability in hand shapes, sizes, and skin tones.
+Incorporate images of both left and right hands, as well as various finger configurations.
+
+
+- Data Augmentation
+To improve the model's generalization ability, apply data augmentation techniques.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Note: After everything try splitting data into validation sets for finalization. A common practice is to allocate 80% of the images for training and 20% for validation. 
+This split helps in evaluating the model's performance on unseen data.
