@@ -1,0 +1,89 @@
+Frame Processed | Processing Time: 0.60s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.06s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.05s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.05s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.05s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.05s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 0.00%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 0.00%
+Analyzed Gesture Pattern: Thumb, Index, Middle, Ring, Pinky
+Frame Processed | Processing Time: 0.35s | Detection Accuracy: 2.94%
+Analyzed Gesture Pattern: Index, Middle, Thumb, Index, Middle, Ring, Pinky
+Frame Processed | Processing Time: 0.47s | Detection Accuracy: 5.71%
+Analyzed Gesture Pattern: Thumb, Index, Middle, Ring, Pinky
+Frame Processed | Processing Time: 0.33s | Detection Accuracy: 8.33%
+Analyzed Gesture Pattern: Thumb, Index, Middle
+Frame Processed | Processing Time: 0.25s | Detection Accuracy: 10.81%
+Analyzed Gesture Pattern: Thumb, Index, Middle
+Frame Processed | Processing Time: 0.25s | Detection Accuracy: 13.16%
+Analyzed Gesture Pattern: Thumb, Index, Middle
+Frame Processed | Processing Time: 0.25s | Detection Accuracy: 15.38%
+Analyzed Gesture Pattern: Thumb, Index, Middle, Ring, Pinky
+Frame Processed | Processing Time: 0.35s | Detection Accuracy: 17.50%
+Analyzed Gesture Pattern: Thumb, Index
+Frame Processed | Processing Time: 0.26s | Detection Accuracy: 19.51%
+Analyzed Gesture Pattern: Thumb, Index
+Frame Processed | Processing Time: 0.26s | Detection Accuracy: 21.43%
+Analyzed Gesture Pattern: Thumb, Index
+Frame Processed | Processing Time: 0.25s | Detection Accuracy: 23.26%
+Analyzed Gesture Pattern: Thumb, Index
+Frame Processed | Processing Time: 0.25s | Detection Accuracy: 25.00%
+Analyzed Gesture Pattern: Thumb, Index
+Frame Processed | Processing Time: 0.25s | Detection Accuracy: 26.67%
+Analyzed Gesture Pattern: Thumb
+Frame Processed | Processing Time: 0.15s | Detection Accuracy: 28.26%
+Analyzed Gesture Pattern: Thumb
+Frame Processed | Processing Time: 0.15s | Detection Accuracy: 29.79%
+Analyzed Gesture Pattern: Thumb
+Frame Processed | Processing Time: 0.15s | Detection Accuracy: 31.25%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 30.61%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 30.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 29.41%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 28.85%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 28.30%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 27.78%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 27.27%
+Frame Processed | Processing Time: 0.05s | Detection Accuracy: 26.79%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 26.32%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 25.86%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 25.42%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 25.00%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 24.59%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 24.19%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 23.81%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 23.44%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 23.08%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 22.73%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 22.39%
+Frame Processed | Processing Time: 0.04s | Detection Accuracy: 22.06%
+Frame Processed | Processing Time: 0.05s | Detection Accuracy: 21.74%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 21.43%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 21.13%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 20.83%
+Frame Processed | Processing Time: 0.03s | Detection Accuracy: 20.55%
+
