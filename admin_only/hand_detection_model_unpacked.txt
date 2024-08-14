@@ -1,0 +1,180 @@
+Name: model_weights
+  Group: model_weights
+    Attribute backend: tensorflow
+    Attribute keras_version: 3.4.1
+    Attribute layer_names: ['conv2d' 'max_pooling2d' 'conv2d_1' 'max_pooling2d_1' 'conv2d_2'
+ 'max_pooling2d_2' 'flatten' 'dense' 'dropout' 'dense_1']
+Name: model_weights/conv2d
+  Group: model_weights/conv2d
+    Attribute weight_names: ['sequential/conv2d/kernel' 'sequential/conv2d/bias']
+Name: model_weights/conv2d/sequential
+  Group: model_weights/conv2d/sequential
+Name: model_weights/conv2d/sequential/conv2d
+  Group: model_weights/conv2d/sequential/conv2d
+Name: model_weights/conv2d/sequential/conv2d/bias
+  Dataset shape: (32,)
+  Dataset dtype: float32
+Name: model_weights/conv2d/sequential/conv2d/kernel
+  Dataset shape: (3, 3, 3, 32)
+  Dataset dtype: float32
+Name: model_weights/conv2d_1
+  Group: model_weights/conv2d_1
+    Attribute weight_names: ['sequential/conv2d_1/kernel' 'sequential/conv2d_1/bias']
+Name: model_weights/conv2d_1/sequential
+  Group: model_weights/conv2d_1/sequential
+Name: model_weights/conv2d_1/sequential/conv2d_1
+  Group: model_weights/conv2d_1/sequential/conv2d_1
+Name: model_weights/conv2d_1/sequential/conv2d_1/bias
+  Dataset shape: (64,)
+  Dataset dtype: float32
+Name: model_weights/conv2d_1/sequential/conv2d_1/kernel
+  Dataset shape: (3, 3, 32, 64)
+  Dataset dtype: float32
+Name: model_weights/conv2d_2
+  Group: model_weights/conv2d_2
+    Attribute weight_names: ['sequential/conv2d_2/kernel' 'sequential/conv2d_2/bias']
+Name: model_weights/conv2d_2/sequential
+  Group: model_weights/conv2d_2/sequential
+Name: model_weights/conv2d_2/sequential/conv2d_2
+  Group: model_weights/conv2d_2/sequential/conv2d_2
+Name: model_weights/conv2d_2/sequential/conv2d_2/bias
+  Dataset shape: (128,)
+  Dataset dtype: float32
+Name: model_weights/conv2d_2/sequential/conv2d_2/kernel
+  Dataset shape: (3, 3, 64, 128)
+  Dataset dtype: float32
+Name: model_weights/dense
+  Group: model_weights/dense
+    Attribute weight_names: ['sequential/dense/kernel' 'sequential/dense/bias']
+Name: model_weights/dense/sequential
+  Group: model_weights/dense/sequential
+Name: model_weights/dense/sequential/dense
+  Group: model_weights/dense/sequential/dense
+Name: model_weights/dense/sequential/dense/bias
+  Dataset shape: (128,)
+  Dataset dtype: float32
+Name: model_weights/dense/sequential/dense/kernel
+  Dataset shape: (4608, 128)
+  Dataset dtype: float32
+Name: model_weights/dense_1
+  Group: model_weights/dense_1
+    Attribute weight_names: ['sequential/dense_1/kernel' 'sequential/dense_1/bias']
+Name: model_weights/dense_1/sequential
+  Group: model_weights/dense_1/sequential
+Name: model_weights/dense_1/sequential/dense_1
+  Group: model_weights/dense_1/sequential/dense_1
+Name: model_weights/dense_1/sequential/dense_1/bias
+  Dataset shape: (1,)
+  Dataset dtype: float32
+Name: model_weights/dense_1/sequential/dense_1/kernel
+  Dataset shape: (128, 1)
+  Dataset dtype: float32
+Name: model_weights/dropout
+  Group: model_weights/dropout
+    Attribute weight_names: []
+Name: model_weights/flatten
+  Group: model_weights/flatten
+    Attribute weight_names: []
+Name: model_weights/max_pooling2d
+  Group: model_weights/max_pooling2d
+    Attribute weight_names: []
+Name: model_weights/max_pooling2d_1
+  Group: model_weights/max_pooling2d_1
+    Attribute weight_names: []
+Name: model_weights/max_pooling2d_2
+  Group: model_weights/max_pooling2d_2
+    Attribute weight_names: []
+Name: model_weights/top_level_model_weights
+  Group: model_weights/top_level_model_weights
+    Attribute weight_names: []
+Name: optimizer_weights
+  Group: optimizer_weights
+    Attribute weight_names: ['adam/iteration' 'adam/learning_rate'
+ 'adam/sequential_conv2d_kernel_momentum'
+ 'adam/sequential_conv2d_kernel_velocity'
+ 'adam/sequential_conv2d_bias_momentum'
+ 'adam/sequential_conv2d_bias_velocity'
+ 'adam/sequential_conv2d_1_kernel_momentum'
+ 'adam/sequential_conv2d_1_kernel_velocity'
+ 'adam/sequential_conv2d_1_bias_momentum'
+ 'adam/sequential_conv2d_1_bias_velocity'
+ 'adam/sequential_conv2d_2_kernel_momentum'
+ 'adam/sequential_conv2d_2_kernel_velocity'
+ 'adam/sequential_conv2d_2_bias_momentum'
+ 'adam/sequential_conv2d_2_bias_velocity'
+ 'adam/sequential_dense_kernel_momentum'
+ 'adam/sequential_dense_kernel_velocity'
+ 'adam/sequential_dense_bias_momentum'
+ 'adam/sequential_dense_bias_velocity'
+ 'adam/sequential_dense_1_kernel_momentum'
+ 'adam/sequential_dense_1_kernel_velocity'
+ 'adam/sequential_dense_1_bias_momentum'
+ 'adam/sequential_dense_1_bias_velocity']
+Name: optimizer_weights/adam
+  Group: optimizer_weights/adam
+Name: optimizer_weights/adam/iteration
+  Dataset shape: ()
+  Dataset dtype: int64
+Name: optimizer_weights/adam/learning_rate
+  Dataset shape: ()
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_1_bias_momentum
+  Dataset shape: (64,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_1_bias_velocity
+  Dataset shape: (64,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_1_kernel_momentum
+  Dataset shape: (3, 3, 32, 64)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_1_kernel_velocity
+  Dataset shape: (3, 3, 32, 64)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_2_bias_momentum
+  Dataset shape: (128,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_2_bias_velocity
+  Dataset shape: (128,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_2_kernel_momentum
+  Dataset shape: (3, 3, 64, 128)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_2_kernel_velocity
+  Dataset shape: (3, 3, 64, 128)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_bias_momentum
+  Dataset shape: (32,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_bias_velocity
+  Dataset shape: (32,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_kernel_momentum
+  Dataset shape: (3, 3, 3, 32)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_conv2d_kernel_velocity
+  Dataset shape: (3, 3, 3, 32)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_1_bias_momentum
+  Dataset shape: (1,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_1_bias_velocity
+  Dataset shape: (1,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_1_kernel_momentum
+  Dataset shape: (128, 1)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_1_kernel_velocity
+  Dataset shape: (128, 1)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_bias_momentum
+  Dataset shape: (128,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_bias_velocity
+  Dataset shape: (128,)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_kernel_momentum
+  Dataset shape: (4608, 128)
+  Dataset dtype: float32
+Name: optimizer_weights/adam/sequential_dense_kernel_velocity
+  Dataset shape: (4608, 128)
+  Dataset dtype: float32
